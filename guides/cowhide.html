@@ -247,23 +247,15 @@
           north of Lumbridge Castle — the world's most efficient cow-to-bank loop.
         </p>
 
-        <div class="map-block" aria-label="Lumbridge cow pen route">
-          <!-- Cow pen pin -->
-          <div class="map-pin" style="top: 32%; left: 42%;"></div>
-          <div class="map-pin-label" style="top: 32%; left: 42%;">Cow Pen</div>
-          <!-- Bank pin -->
-          <div class="map-pin" style="top: 78%; left: 58%; background: var(--accent-coin);"></div>
-          <div class="map-pin-label" style="top: 78%; left: 58%;">Lumbridge Bank</div>
-          <!-- Route arrow (simplified) -->
-          <svg viewBox="0 0 100 100" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none;">
-            <defs>
-              <marker id="arrow" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
-                <path d="M0,0 L6,3 L0,6 Z" fill="#f3d57a"/>
-              </marker>
-            </defs>
-            <path d="M 42 32 Q 30 55 58 78" stroke="#f3d57a" stroke-width="0.6" fill="none" stroke-dasharray="2 1.5" marker-end="url(#arrow)"/>
-            <path d="M 58 78 Q 70 55 42 32" stroke="#f3d57a" stroke-width="0.6" fill="none" stroke-dasharray="2 1.5" marker-end="url(#arrow)" opacity="0.5"/>
-          </svg>
+        <div class="two-col" style="align-items: start;">
+          <div class="image-viewer" data-zoomable>
+            <img src="../images/guides/route-overview.png" alt="Route overview — Lumbridge Cow Pen to Castle">
+            <div class="image-viewer-hint">🔍 Click to zoom</div>
+          </div>
+          <div class="image-viewer" data-zoomable>
+            <img src="../images/guides/lumbridge-map.png" alt="Lumbridge area OSRS map">
+            <div class="image-viewer-hint">🔍 Click to zoom</div>
+          </div>
         </div>
 
         <h3 style="margin-top: 1.5rem;">Route Highlights</h3>
@@ -282,6 +274,11 @@
           Cowhide farming has <em>no</em> required gear, but lightweight equipment with
           weight reduction lets you maintain run energy for longer trips.
         </p>
+
+        <div class="image-viewer" data-zoomable style="margin-bottom: 1.5rem;">
+          <img src="../images/guides/crop-gear.png" alt="Gear and Inventory Setup from infographic">
+          <div class="image-viewer-hint">🔍 Click to zoom</div>
+        </div>
 
         <div data-tabs>
           <div class="tabs">
@@ -308,20 +305,7 @@
                   pointless. Focus on weight reduction if you have any options.
                 </p>
               </div>
-              <div class="equip-grid">
-                <div class="equip-slot empty" data-pos="head">head</div>
-                <div class="equip-slot empty" data-pos="cape">cape</div>
-                <div class="equip-slot empty" data-pos="neck">neck</div>
-                <div class="equip-slot empty" data-pos="ammo">ammo</div>
-                <div class="equip-slot filled" data-pos="weapon">⚔️</div>
-                <div class="equip-slot filled" data-pos="body">🦺</div>
-                <div class="equip-slot empty" data-pos="shield">shield</div>
-                <div class="equip-slot filled" data-pos="legs">👖</div>
-                <div class="equip-slot empty" data-pos="gloves">gloves</div>
-                <div class="equip-slot filled" data-pos="boots">🥾</div>
-                <div class="equip-slot empty" data-pos="ring">ring</div>
-              </div>
-            </div>
+          </div>
           </div>
 
           <!-- F2P Optimal -->
@@ -342,20 +326,7 @@
                   members access, focus on a fast weapon and stay aware of run energy.
                 </p>
               </div>
-              <div class="equip-grid">
-                <div class="equip-slot empty" data-pos="head">head</div>
-                <div class="equip-slot filled" data-pos="cape">🧣</div>
-                <div class="equip-slot empty" data-pos="neck">neck</div>
-                <div class="equip-slot empty" data-pos="ammo">ammo</div>
-                <div class="equip-slot filled" data-pos="weapon">⚔️</div>
-                <div class="equip-slot filled" data-pos="body">🦺</div>
-                <div class="equip-slot empty" data-pos="shield">shield</div>
-                <div class="equip-slot filled" data-pos="legs">👖</div>
-                <div class="equip-slot filled" data-pos="gloves">🧤</div>
-                <div class="equip-slot filled" data-pos="boots">🥾</div>
-                <div class="equip-slot empty" data-pos="ring">ring</div>
-              </div>
-            </div>
+          </div>
           </div>
 
           <!-- Members Budget -->
@@ -375,20 +346,7 @@
                   it lets you teleport to Edgeville bank and skip the run from Lumbridge entirely.
                 </p>
               </div>
-              <div class="equip-grid">
-                <div class="equip-slot empty" data-pos="head">head</div>
-                <div class="equip-slot filled" data-pos="cape">🧣</div>
-                <div class="equip-slot filled" data-pos="neck">📿</div>
-                <div class="equip-slot empty" data-pos="ammo">ammo</div>
-                <div class="equip-slot filled" data-pos="weapon">⚔️</div>
-                <div class="equip-slot filled" data-pos="body">🦺</div>
-                <div class="equip-slot empty" data-pos="shield">shield</div>
-                <div class="equip-slot filled" data-pos="legs">👖</div>
-                <div class="equip-slot filled" data-pos="gloves">🧤</div>
-                <div class="equip-slot filled" data-pos="boots">🥾</div>
-                <div class="equip-slot filled" data-pos="ring">💍</div>
-              </div>
-            </div>
+          </div>
           </div>
 
           <!-- Members Optimal -->
@@ -410,20 +368,7 @@
                   cow locations mid-session.
                 </p>
               </div>
-              <div class="equip-grid">
-                <div class="equip-slot filled" data-pos="head">🪖</div>
-                <div class="equip-slot filled" data-pos="cape">🧣</div>
-                <div class="equip-slot filled" data-pos="neck">📿</div>
-                <div class="equip-slot empty" data-pos="ammo">ammo</div>
-                <div class="equip-slot filled" data-pos="weapon">⚔️</div>
-                <div class="equip-slot filled" data-pos="body">🦺</div>
-                <div class="equip-slot empty" data-pos="shield">shield</div>
-                <div class="equip-slot filled" data-pos="legs">👖</div>
-                <div class="equip-slot filled" data-pos="gloves">🧤</div>
-                <div class="equip-slot filled" data-pos="boots">🥾</div>
-                <div class="equip-slot filled" data-pos="ring">💍</div>
-              </div>
-            </div>
+          </div>
           </div>
         </div>
       </section>
@@ -458,16 +403,7 @@
                   <li>Max possible hides per session</li>
                 </ul>
               </div>
-              <div class="inv-grid">
-                <div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div>
-                <div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div>
-                <div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div>
-                <div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div>
-                <div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div>
-                <div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div>
-                <div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div>
-              </div>
-            </div>
+          </div>
           </div>
 
           <!-- With Food -->
@@ -486,16 +422,7 @@
                   <li>Recommended only for very low-HP characters</li>
                 </ul>
               </div>
-              <div class="inv-grid">
-                <div class="inv-slot filled">🍖</div><div class="inv-slot filled">🍖</div><div class="inv-slot"></div><div class="inv-slot"></div>
-                <div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div>
-                <div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div>
-                <div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div>
-                <div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div>
-                <div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div>
-                <div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div>
-              </div>
-            </div>
+          </div>
           </div>
 
           <!-- Teleports -->
@@ -514,16 +441,7 @@
                   <li>Amulet of glory (in equipment, not inventory)</li>
                 </ul>
               </div>
-              <div class="inv-grid">
-                <div class="inv-slot filled">🧪</div><div class="inv-slot filled">📜</div><div class="inv-slot filled">👝</div><div class="inv-slot"></div>
-                <div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div>
-                <div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div>
-                <div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div>
-                <div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div>
-                <div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div>
-                <div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div><div class="inv-slot"></div>
-              </div>
-            </div>
+          </div>
           </div>
         </div>
       </section>
@@ -531,6 +449,10 @@
       <!-- ─── WALKTHROUGH ─── -->
       <section id="walkthrough">
         <h2 class="section-title">Step-by-Step Walkthrough</h2>
+        <div class="image-viewer" data-zoomable style="margin-bottom: 1.5rem;">
+          <img src="../images/guides/crop-steps.png" alt="Step-by-step breakdown from infographic">
+          <div class="image-viewer-hint">🔍 Click to zoom</div>
+        </div>
 
         <ol class="steps-list">
           <li>
@@ -659,6 +581,10 @@
       <!-- ─── PRO TIPS ─── -->
       <section id="tips">
         <h2 class="section-title">Pro Tips &amp; Optimization</h2>
+        <div class="image-viewer" data-zoomable style="margin-bottom: 1.5rem;">
+          <img src="../images/guides/crop-tips.png" alt="Pro tips and cow info from infographic">
+          <div class="image-viewer-hint">🔍 Click to zoom</div>
+        </div>
 
         <div class="two-col">
           <div class="sub-panel">
@@ -768,6 +694,10 @@
       <!-- ─── WHAT TO DO WITH HIDES ─── -->
       <section id="what-to-do">
         <h2 class="section-title">What to Do With Your Hides</h2>
+        <div class="image-viewer" data-zoomable style="margin-bottom: 1.5rem;">
+          <img src="../images/guides/crop-selling.png" alt="Selling your cowhides — prices and GE info">
+          <div class="image-viewer-hint">🔍 Click to zoom</div>
+        </div>
 
         <div class="two-col">
           <div class="sub-panel">
