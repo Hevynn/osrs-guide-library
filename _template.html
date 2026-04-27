@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<!--
+  ============================================================
+  GUIDE TEMPLATE — How to use:
+  1. Copy this file to /guides/your-guide-id.html
+  2. Replace placeholders below ([REPLACE: ...])
+  3. Add an entry to /assets/js/guides.js so it appears on the homepage
+  4. Build out your guide using the section examples below as a starting point
+  ============================================================
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[REPLACE: Guide Title] · Gielinor Codex</title>
+<meta name="description" content="[REPLACE: Short SEO description, ~150 chars]">
+<link rel="stylesheet" href="../assets/css/theme.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%23d4af37' stroke='%23a8843a' stroke-width='4'/%3E%3Ccircle cx='50' cy='50' r='28' fill='none' stroke='%230a0705' stroke-width='2'/%3E%3C/svg%3E">
+</head>
+<body>
+
+<header class="top-bar">
+  <div class="top-bar-inner">
+    <a href="../index.html" class="brand">
+      <span class="brand-mark"></span>
+      Gielinor Codex
+    </a>
+    <nav class="top-nav">
+      <a href="../index.html">Library</a>
+      <a href="../index.html#about">About</a>
+      <a href="https://github.com/Hevynn" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<main class="site-shell">
+
+  <a href="../index.html" style="display: inline-block; margin-bottom: 1rem; font-family: var(--font-small-caps); font-size: 0.85rem; letter-spacing: 0.15em; text-transform: uppercase; border-bottom: none; color: var(--text-muted);">
+    ← Back to Library
+  </a>
+
+  <!-- ============= GUIDE HEADER ============= -->
+  <header class="guide-header">
+    <div class="guide-header-cat">[REPLACE: Category · Tier · Difficulty]</div>
+    <h1>[REPLACE: Guide Title]</h1>
+    <div class="divider"><span class="divider-gem"></span></div>
+    <p style="font-style: italic; color: var(--text-secondary); max-width: 700px; margin: 0 auto;">
+      [REPLACE: One or two sentence tagline]
+    </p>
+    <div class="guide-meta">
+      <span class="guide-meta-item"><span class="guide-meta-icon">⚔️</span>[Stat]: [Value]</span>
+      <span class="guide-meta-item"><span class="guide-meta-icon">⏱️</span>[Stat]: [Value]</span>
+      <span class="guide-meta-item"><span class="guide-meta-icon">💰</span>[Stat]: [Value]</span>
+      <span class="guide-meta-item"><span class="guide-meta-icon">🏆</span>[Stat]: [Value]</span>
+    </div>
+  </header>
+
+  <div class="guide-layout">
+
+    <!-- ============= TABLE OF CONTENTS ============= -->
+    <aside class="guide-toc">
+      <h4>Contents</h4>
+      <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#requirements">Requirements</a></li>
+        <li><a href="#walkthrough">Walkthrough</a></li>
+        <li><a href="#tips">Tips</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </aside>
+
+    <!-- ============= MAIN CONTENT ============= -->
+    <div class="guide-content">
+
+      <!-- Overview section -->
+      <section id="overview">
+        <h2 class="section-title">Overview</h2>
+        <p>[REPLACE: Intro paragraph]</p>
+
+        <!-- Quick stats row -->
+        <div class="stat-row">
+          <div class="stat-chip">
+            <span class="stat-chip-value">[VALUE]</span>
+            <span class="stat-chip-label">[LABEL]</span>
+          </div>
+          <div class="stat-chip">
+            <span class="stat-chip-value">[VALUE]</span>
+            <span class="stat-chip-label">[LABEL]</span>
+          </div>
+        </div>
+
+        <!-- Callouts (regular / tip / warn) -->
+        <div class="callout">
+          <span class="callout-title">Note</span>
+          [REPLACE: A useful note]
+        </div>
+        <div class="callout tip">
+          <span class="callout-title">Pro Tip</span>
+          [REPLACE: A pro tip]
+        </div>
+        <div class="callout warn">
+          <span class="callout-title">Warning</span>
+          [REPLACE: A warning]
+        </div>
+      </section>
+
+      <!-- Requirements section -->
+      <section id="requirements">
+        <h2 class="section-title">Requirements</h2>
+        <div class="two-col">
+          <div class="sub-panel">
+            <h4>Required</h4>
+            <ul>
+              <li>[REQUIREMENT]</li>
+              <li>[REQUIREMENT]</li>
+            </ul>
+          </div>
+          <div class="sub-panel">
+            <h4>Recommended</h4>
+            <ul>
+              <li>[RECOMMENDATION]</li>
+              <li>[RECOMMENDATION]</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Walkthrough section with numbered steps -->
+      <section id="walkthrough">
+        <h2 class="section-title">Walkthrough</h2>
+
+        <ol class="steps-list">
+          <li>
+            <div>
+              <h4>Step One Title</h4>
+              <div class="step-detail">[REPLACE: Description of this step]</div>
+              <ul>
+                <li>[Detail bullet]</li>
+                <li>[Detail bullet]</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h4>Step Two Title</h4>
+              <div class="step-detail">[REPLACE]</div>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Example: Tabs -->
+      <!--
+      <section>
+        <h2 class="section-title">Tabbed Section Example</h2>
+        <div data-tabs>
+          <div class="tabs">
+            <button class="tab-btn active" data-tab="a">Option A</button>
+            <button class="tab-btn" data-tab="b">Option B</button>
+          </div>
+          <div class="tab-pane active" data-tab="a">Content A</div>
+          <div class="tab-pane" data-tab="b">Content B</div>
+        </div>
+      </section>
+      -->
+
+      <!-- Example: Image with zoom -->
+      <!--
+      <section>
+        <h2 class="section-title">Map / Reference</h2>
+        <div class="image-viewer" data-zoomable>
+          <img src="../images/guides/your-image.png" alt="Description">
+          <div class="image-viewer-hint">🔍 Click to zoom</div>
+        </div>
+      </section>
+      -->
+
+      <!-- Tips section -->
+      <section id="tips">
+        <h2 class="section-title">Pro Tips</h2>
+        <div class="two-col">
+          <div class="sub-panel">
+            <h4>⚡ Tip Title</h4>
+            <p>[REPLACE]</p>
+          </div>
+          <div class="sub-panel">
+            <h4>🌍 Tip Title</h4>
+            <p>[REPLACE]</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ section -->
+      <section id="faq">
+        <h2 class="section-title">FAQ</h2>
+        <div class="faq-item">
+          <button class="faq-q">[Question?]</button>
+          <div class="faq-a"><div class="faq-a-inner">[Answer]</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">[Question?]</button>
+          <div class="faq-a"><div class="faq-a-inner">[Answer]</div></div>
+        </div>
+      </section>
+
+      <div class="divider" style="margin-top: 3rem;"><span class="divider-gem"></span></div>
+      <div style="text-align: center;">
+        <a href="../index.html" class="btn btn-primary">← Back to the Library</a>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<!-- Lightbox (only needed if guide uses [data-zoomable] images) -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" aria-label="Close">✕</button>
+  <img class="lightbox-img" src="" alt="Zoomed view">
+  <div class="lightbox-controls">
+    <button data-action="zoom-out">−</button>
+    <span class="lightbox-zoom-display">100%</span>
+    <button data-action="zoom-in">+</button>
+    <button data-action="reset" style="font-size: 0.9rem;">⟲</button>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="divider"><span class="divider-gem"></span></div>
+  <p>The Gielinor Codex · Built by Hevynn · Not affiliated with Jagex</p>
+</footer>
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
